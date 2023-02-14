@@ -3,7 +3,7 @@ module.exports = {
     description: 'WebGIS开发从入门到进阶，这里都有',
     lang: 'zh-CN',
     // github pages 配置
-    base: '/lzugis-blogs/',
+    // base: '/lzugis-blogs/',
     head: [
         // 添加图标
         ['link', { rel: 'icon', href: '/logo.png' }]
@@ -45,10 +45,10 @@ module.exports = {
                     text: '博客目录',
                     collapsible: true,
                     items: [
-                        {text: '概述', link: '/blogs/'},
-                        {text: 'WebGIS基础', link: '/blogs/basic'},
-                        {text: '项目实战', link: '/blogs/project'},
-                        {text: '高级进阶', link: '/blogs/more'},
+                        { text: '概述', link: '/blogs/' },
+                        { text: 'WebGIS基础', link: '/blogs/basic' },
+                        { text: '项目实战', link: '/blogs/project' },
+                        { text: '高级进阶', link: '/blogs/more' },
                     ]
                 }
             ],
